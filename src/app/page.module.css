@@ -44,7 +44,7 @@
 
 .logo {
   left: 50px;
-  position: fixed;
+  position: absolute;
   top: 64px;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .socials {
-  margin-top: 96px;
+  margin-top: 64px;
   user-select: none;
 }
 
