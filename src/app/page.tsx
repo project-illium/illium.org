@@ -19,6 +19,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className={styles.main}>
+      <div className={styles.bg}><img src="/bg.jpg" /></div>
       <div className={styles.init}>
         <svg width="55" height="40" viewBox="0 0 55 40" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M27.3684 14.9203L36.5698 7.36816H54.7368L47.7767 13.0807H34.5644L31.9291 14.9203H27.3684Z" fill="#000" />

@@ -15,6 +15,14 @@
   z-index: 2;
 }
 
+.bg {
+  opacity: 0.05;
+  z-index: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
 .announcement {
   align-items: center;
   background-color: #D9FE6F;
