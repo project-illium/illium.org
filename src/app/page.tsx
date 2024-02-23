@@ -25,36 +25,36 @@ export default function Home() {
         </div>
       </a>
 
-      <img className={styles.logo} src="./illium-logo-pink.svg" alt="Illium" />
+      <div>
+        <img className={styles.logo} src="./illium-logo-pink.svg" alt="Illium" />
+      </div>
 
-      <div className="flex-h" style={{ width: '100%' }}>
-        <div className={styles.top}>
-          <div className={styles.logoText}>Illium</div>
-          <div className={styles.description}>
-            The Endgame Blockchain. Powered by zero knowledge. <br />Making payments and smart contracts fast, cheap, and private. Launching 2024.
-          </div>
+      <div className={styles.top}>
+        <div className={styles.logoText}>Illium</div>
+        <div className={styles.description}>
+          The Endgame Blockchain. Powered by zero knowledge. <br />Making payments and smart contracts fast, cheap, and private. Launching 2024.
+        </div>
 
-          <div className={styles.ctas}>
+        <div className={styles.ctas}>
+          <a href="https://discord.gg/Grh8dA9R" target="_blank">
+            <div className={styles.button1}>Join the community</div>
+          </a>
+          <a href="https://docs.illium.org/" target="_blank">
+            <div className={styles.button2}>View documentation</div>
+          </a>
+        </div>
+
+        <div className={styles.socials}>
+          <div className="flex-h" style={{ gap: '40px' }}>
+            <a href="https://github.com/project-illium/" target="_blank">
+              <div className={styles.icon}><img src="./icon-github.svg" alt="Github" /></div>
+            </a>
+            <a href="https://twitter.com/illiumcrypto" target="_blank">
+              <div className={styles.icon}><img src="./icon-x.svg" alt="X" /></div>
+            </a>
             <a href="https://discord.gg/Grh8dA9R" target="_blank">
-              <div className={styles.button1}>Join the community</div>
+              <div className={styles.icon}><img src="./icon-discord.svg" alt="Discord" /></div>
             </a>
-            <a href="https://docs.illium.org/" target="_blank">
-              <div className={styles.button2}>View documentation</div>
-            </a>
-          </div>
-
-          <div className={styles.socials}>
-            <div className="flex-h" style={{ gap: '40px' }}>
-              <a href="https://github.com/project-illium/" target="_blank">
-                <div className={styles.icon}><img src="./icon-github.svg" alt="Github" /></div>
-              </a>
-              <a href="https://twitter.com/illiumcrypto" target="_blank">
-                <div className={styles.icon}><img src="./icon-x.svg" alt="X" /></div>
-              </a>
-              <a href="https://discord.gg/Grh8dA9R" target="_blank">
-                <div className={styles.icon}><img src="./icon-discord.svg" alt="Discord" /></div>
-              </a>
-            </div>
           </div>
         </div>
       </div>
