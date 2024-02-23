@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: #141014;
+  cursor: default;
+  font-family: var(--font-ubuntu-mono);
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.flex-h {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-v {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  body::-webkit-scrollbar {
+    display: none;
+  }
+}
