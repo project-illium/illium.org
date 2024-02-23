@@ -3,14 +3,14 @@ import { Metadata } from 'next'
 import { RiArrowRightLine } from "react-icons/ri"
 
 export const metadata: Metadata = {
-  title: 'illium: The Endgame Blockchain',
+  title: 'Illium: The Endgame Blockchain',
   description: 'Powered by zero knowledge. Making payments and smart contracts fast, cheap, and private. Launching 2024.',
   openGraph: {
-    title: ' illium: The Endgame Blockchain',
+    title: ' Illium: The Endgame Blockchain',
     description: 'Powered by zero knowledge. Making payments and smart contracts fast, cheap, and private. Launching 2024.',
   },
   twitter: {
-    title: 'illium: The Endgame Blockchain',
+    title: 'Illium: The Endgame Blockchain',
     description: 'Powered by zero knowledge. Making payments and smart contracts fast, cheap, and private. Launching 2024.',
     site: 'https://illium.org',
   }
