@@ -135,6 +135,12 @@
   user-select: none;
 }
 
+.icon img,
+.footer img {
+  height: 46px;
+  width: 46px;
+}
+
 .logoLarge {
   animation: logoMove 8s infinite;
   align-items: center;

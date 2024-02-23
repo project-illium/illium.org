@@ -45,7 +45,7 @@ export default function Home() {
         </div>
 
         <div className={styles.socials}>
-          <div className="flex-h" style={{ gap: '40px' }}>
+          <div className="flex-h" style={{ gap: '38px' }}>
             <a href="https://github.com/project-illium/" target="_blank">
               <div className={styles.icon}><img src="./icon-github.svg" alt="Github" /></div>
             </a>
@@ -63,7 +63,7 @@ export default function Home() {
         <img src="./illium-logo-pink.svg" alt="illium" />
       </div>
       <div className={styles.footer}>
-        <div className="flex-h" style={{ gap: '40px' }}>
+        <div className="flex-h" style={{ gap: '38px' }}>
           <a href="https://github.com/project-illium/" target="_blank">
             <div className={styles.icon}><img src="./icon-github.svg" alt="Github" /></div>
           </a>
