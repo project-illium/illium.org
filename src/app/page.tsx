@@ -4,14 +4,14 @@ import { RiArrowRightLine } from "react-icons/ri"
 
 export const metadata: Metadata = {
   title: 'Illium: The Endgame Blockchain',
-  description: 'Powered by zero knowledge. Making payments and smart contracts fast, cheap, and private. Launching 2024.',
+  description: 'Powered by zero knowledge tech. Making payments and smart contracts fast, cheap, and private. Launching 2024.',
   openGraph: {
     title: ' Illium: The Endgame Blockchain',
-    description: 'Powered by zero knowledge. Making payments and smart contracts fast, cheap, and private. Launching 2024.',
+    description: 'Powered by zero knowledge tech. Making payments and smart contracts fast, cheap, and private. Launching 2024.',
   },
   twitter: {
     title: 'Illium: The Endgame Blockchain',
-    description: 'Powered by zero knowledge. Making payments and smart contracts fast, cheap, and private. Launching 2024.',
+    description: 'Powered by zero knowledge tech. Making payments and smart contracts fast, cheap, and private. Launching 2024.',
     site: 'https://illium.org',
   }
 }
@@ -32,7 +32,7 @@ export default function Home() {
       <div className={styles.top}>
         <div className={styles.logoText}>Illium</div>
         <div className={styles.description}>
-          The Endgame Blockchain. Powered by zero knowledge. <br />Making payments and smart contracts fast, cheap, and private. Launching 2024.
+          The Endgame Blockchain. Powered by zero knowledge tech. <br />Making payments and smart contracts fast, cheap, and private. Launching 2024.
         </div>
 
         <div className={styles.ctas}>

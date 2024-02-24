@@ -25,7 +25,7 @@ const kodeMono = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL('https://illium.org'),
   title: "Illium: The Endgame Blockchain",
-  description: "Powered by zero knowledge. Making payments and smart contracts fast, cheap, and private. Launching 2024.",
+  description: "Powered by zero knowledge tech. Making payments and smart contracts fast, cheap, and private. Launching 2024.",
 }
 
 export default function RootLayout({
