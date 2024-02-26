@@ -14,7 +14,8 @@ export const metadata: Metadata = {
     title: 'Illium: The Endgame Blockchain',
     description: 'Powered by zero knowledge tech. Making payments and smart contracts fast, cheap, and private. Launching 2024.',
     site: 'https://illium.org',
-    images: 'https://illium.org/illium-logo-square.png'
+    images: 'https://illium.org/illium-logo-square.png',
+    card: 'summary'
   }
 }
 
