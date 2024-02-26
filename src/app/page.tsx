@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Illium: The Endgame Blockchain',
     description: 'Powered by zero knowledge tech. Making payments and smart contracts fast, cheap, and private. Launching 2024.',
-    images: 'https://illium.org/illium-logo-square.png'
+    images: 'https://illium.org/illium-logo-rectangle.png'
   },
   twitter: {
     title: 'Illium: The Endgame Blockchain',
     description: 'Powered by zero knowledge tech. Making payments and smart contracts fast, cheap, and private. Launching 2024.',
     site: 'https://illium.org',
-    images: 'https://illium.org/illium-logo-square.png',
+    images: 'https://illium.org/illium-logo-rectangle.png',
     card: 'summary'
   }
 }
