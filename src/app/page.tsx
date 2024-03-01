@@ -39,7 +39,7 @@ export default function Home() {
         </div>
 
         <div className={styles.ctas}>
-          <a href="https://discord.gg/Grh8dA9R" target="_blank">
+          <a href="https://discord.gg/yDq7KXdKmV" target="_blank">
             <div className={styles.button1}>Join the community</div>
           </a>
           <a href="https://docs.illium.org/" target="_blank">
@@ -55,7 +55,7 @@ export default function Home() {
             <a href="https://twitter.com/illiumcrypto" target="_blank">
               <div className={styles.icon}><img src="./icon-x.svg" alt="X" /></div>
             </a>
-            <a href="https://discord.gg/Grh8dA9R" target="_blank">
+            <a href="https://discord.gg/yDq7KXdKmV" target="_blank">
               <div className={styles.icon}><img src="./icon-discord.svg" alt="Discord" /></div>
             </a>
           </div>
@@ -73,7 +73,7 @@ export default function Home() {
           <a href="https://twitter.com/illiumcrypto" target=" _blank">
             <div className={styles.icon}><img src="./icon-x.svg" alt="X" /></div>
           </a>
-          <a href="https://discord.gg/Grh8dA9R" target="_blank">
+          <a href="https://discord.gg/yDq7KXdKmV" target="_blank">
             <div className={styles.icon}><img src="./icon-discord.svg" alt="Discord" /></div>
           </a>
         </div>
